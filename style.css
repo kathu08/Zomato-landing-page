@@ -205,6 +205,31 @@ body {
     width: 100%;
 }
 
+.quote__container {
+    margin-top: 100px;
+    position: relative;
+}
+
+.quote__image {
+    width: 100%;
+    height: 200px;
+}
+
+.quote__restaurant__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+.quote__image__text {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
 @media (min-width: 768px) {
     .navbar {
         justify-content: space-between;
@@ -272,6 +297,14 @@ body {
     .email__enter__box {
         width: 100%;
     }
+    .quote__image {
+        width: 100%;
+        height: 300px;
+        filter: drop-shadow(8px 8px 10px gray);
+    }
+    .quote__image__text {
+        font-size: 33px;
+    }
 }
 
 @media (min-width: 1020px) {
@@ -316,10 +349,21 @@ body {
     .get__updates {
         width: 80%;
     }
+    .quote__image {
+        filter: drop-shadow(8px 8px 10px gray);
+    }
+    .quote__image__text {
+        margin-top: 50px;
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 1400px) {
     .container {
         max-width: 1250px;
+    }
+    .quote__container {
+        margin-left: 100px;
+        max-width: 1000px;
     }
 }
